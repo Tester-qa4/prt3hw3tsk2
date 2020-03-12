@@ -1,15 +1,14 @@
 public class beebeeline {
     public static void main(String[] args) {
-            int balance = (int)100f;
-            int summ_transed = 1100;
-            int start_bonus = 1000;
-            int total_balance;
-            if (summ_transed > start_bonus) {
-            total_balance = summ_transed / 100 + balance + summ_transed;
-            }
-            else {
-                total_balance = balance + summ_transed;
-            }
-        System.out.println(total_balance);
+        int balance = (int) 100f;
+        int summTransed = 1100;
+        int startBonus = 1000;
+        int totalBalance;
+        if (summTransed > startBonus) {
+            totalBalance = summTransed / 100 + balance + summTransed;
+        } else {
+            totalBalance = balance + summTransed;
+        }
+        System.out.println(totalBalance);
     }
 }
